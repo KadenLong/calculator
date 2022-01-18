@@ -21,9 +21,9 @@ reader.question("What would you like to calculate? ", function(input){
 	if(mathSymbol === '+'){
 		console.log(num1 + num2);
 	}
-	// else if(mathSymbol === '-'){
-	//	console.log(num1 - num2);
-	//}
+	 else if(mathSymbol === '-'){
+		console.log(num1 - num2);
+	}
 	// else if(mathSymbol === 'x' || mathSymbol === '*'){
 	//	console.log(num1 * num2);
 	//} 
