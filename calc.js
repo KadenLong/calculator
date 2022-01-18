@@ -33,7 +33,7 @@ reader.question("What would you like to calculate? ", function(input){
 	else if (mathSymbol === 'sqrt'){
 		console.log(Math.sqrt(num1));
 	}
-	//else{console.log("Error, not a valid math sysmbol!")};
+	else{console.log("Error, not a valid math sysmbol!")};
 		
 
 
